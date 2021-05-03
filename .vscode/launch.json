@@ -9,14 +9,13 @@
             "name": "Launch App",
             "request": "launch",
             "vmArgs": "--module-path lib/javafx-sdk-16/lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED",
-            "mainClass": "dev.yukie.handball.presentation.App"
+            "mainClass": "dk.eamv.ferrari.presentation.App"
         },
         {
             "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "vmArgs": "--module-path lib/javafx-sdk-16/lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED",
-            "mainClass": "dev.yukie.handball.presentation.App",
             "mainClass": "${file}"
         }
     ]
